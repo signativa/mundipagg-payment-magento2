@@ -1,7 +1,7 @@
 {
     "name": "signativa/mundipagg-magento2-module",
     "license": "MIT",
-    "version": "2.11.8",
+    "version": "2.11.10",
     "type": "magento2-module",
     "description": "Magento 2 Module Mundipagg",
     "require": {
@@ -45,5 +45,11 @@
     },
     "config":{
         "secure-http":false
-    }
+    },
+    "repositories": [
+        {
+            "type" : "git",
+            "url" : "https://github.com/signativa/mundipagg-ecommerce-core.git"
+        }
+    ]
 }
